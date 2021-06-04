@@ -1,0 +1,17 @@
+.top-advertise {
+  background-color: $light_gray;
+  padding: 30px 0;
+}
+.single-top-ad {
+  display: flex;
+  align-items: center;
+}
+.single-top-ad img {
+  height: 40px;
+  margin-right: 20px;
+}
+.single-top-ad-content h4 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 18px;
+}

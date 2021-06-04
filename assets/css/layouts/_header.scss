@@ -1,0 +1,25 @@
+.top-area {
+  background-color: $header_bg;
+  padding: 15px 0;
+}
+.top-area p {
+  text-transform: capitalize;
+}
+.top-area a {
+  margin-left: 45px;
+}
+.top-area a img {
+  margin-right: 3px;
+}
+.header-area {
+  padding: 10px 0;
+}
+.header-area a {
+	color: $text_color;
+  transition: .3s;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.header-area a:hover {
+	color: $link_hover;
+}
