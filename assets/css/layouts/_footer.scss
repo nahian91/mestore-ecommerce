@@ -1,45 +1,52 @@
 .footer-area {
-  background-color: #111;
   padding: 60px 0;
-}
-.single-footer {
-  color: #fff;
-}
-.single-footer p {
-  color: #fff;
-}
-.single-footer img {
-  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
 }
 .single-footer h4 {
   text-transform: capitalize;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.single-footer h4 span {
-  color: $btn_back;
-  display: inline-block;
-}
-.single-footer ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-}
-.single-footer ul li {
-  margin-bottom: 7px;
-}
-.single-footer ul li a {
   color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
-.single-footer span {
+.single-footer p {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer-address span {
   display: block;
-  margin-bottom: 7px;
-}
-.copy-area {
-  background-color: #333;
-  text-align: center;
-  padding: 20px 0;
-}
-.copy-area p {
   color: #fff;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-address span i {
+  margin-right: 6px;
+}
+.single-footer a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 12px;
+}
+.footer-pay {
+  margin-top: 20px;
+}
+.footer-pay h4 {
+  margin-bottom: 10px;
+}
+.footer-menu {
+  margin-top: 25px;
+}
+.footer-menu a {
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer-menu p {
+  color: #fff;
+  margin-top: 15px;
 }
