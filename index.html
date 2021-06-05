@@ -8,6 +8,8 @@
     <title>meStore | Ecommerce Website</title>
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/owl-carousel.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Style CSS -->
@@ -17,13 +19,74 @@
 </head>
 <body>
 
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-top-left">
+                        <a href=""><i class="fas fa-phone-alt"></i> (000) 2345 - 6789</a>
+                        <a href=""><i class="far fa-envelope"></i> info@mestore.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">                    
+                    <div class="header-top-right">
+                        <ul>
+                            <li>
+                                <a href="">EN
+                                    <ul>
+                                        <li><a href="">BN</a></li>
+                                        <li><a href="">SP</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">USD
+                                    <ul>
+                                        <li><a href="">CA</a></li>
+                                        <li><a href="">EUR</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-3">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="">MeStore</a>
+                    </div>
+                </div>
+                <div class="col-md-8 text-center">
+                    <div class="menu">
+                        <ul>                   
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Page</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 text-end">
+                    <div class="header-icon">
+                        <a href=""><i class="fas fa-search"></i></a>
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <section class="slider-area" style="background-image: url('assets/images/banner-back.png');">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 text-center">
                     <div class="slider-content">
                         <h1>Fashion <span>Carnival</span></h1>
-                        <h4>2022</h4>
+                        <h4>2021</h4>
                         <p>Lorem Ipsum. Proin gravida nibh velit it’s a cold world out there.This is Photoshop's version of Lorem Ipsum. Proin gravida nibh velit it’s a cold world out there.</p>
                         <a href="">shop now</a>
                     </div>
@@ -70,6 +133,60 @@
                         <h2>Men's <span>Carnival</span></h2>
                         <p>Lorem Ipsum. Proin gravida nibh velit it’s a cold world out the.</p>
                         <a href="">shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h4>Featured Products</h4>
+                        <p>Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product-carousel owl-carousel">
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                    <div class="single-products">
+                        <img src="assets/images/products/product-1.png" alt="">
+                        <div class="product-content">
+                            <h4>product name <span>category</span></h4>
+                            <p>$75</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -259,7 +376,7 @@
                         <div class="footer-address">
                             <span><i class="fas fa-map-marker-alt"></i> 0123  Main Road, Your City, NY 123456</span>
                             <span><i class="fas fa-phone-alt"></i> (000) 2345 - 6789</span>
-                            <span><i class="far fa-envelope"></i> info@psdfreebies.com</span>
+                            <span><i class="far fa-envelope"></i> info@mestore.com</span>
                         </div>    
                     </div>
                 </div>
@@ -329,6 +446,8 @@
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl-carousel.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 </body>

@@ -1,25 +1,67 @@
-.top-area {
-  background-color: $header_bg;
-  padding: 15px 0;
-}
-.top-area p {
-  text-transform: capitalize;
-}
-.top-area a {
-  margin-left: 45px;
-}
-.top-area a img {
-  margin-right: 3px;
-}
 .header-area {
-  padding: 10px 0;
+  position: relative;
+  z-index: 2;
+  padding: 20px 0;
 }
-.header-area a {
-	color: $text_color;
-  transition: .3s;
-  text-transform: uppercase;
-  font-weight: 500;
+.header-area::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: -1;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-.header-area a:hover {
-	color: $link_hover;
+
+.logo a {
+  font-size: 26px;
+  font-weight: 900;
+  color: #333;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li a {
+  display: block;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header-top-right ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+.header-top-right ul li {
+  margin-left: 10px;
+  position: relative;
+}
+.header-top-right ul li ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.header-top-right ul li ul li {
+  margin-left: 0;
+}
+.header-top-right ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
 }
